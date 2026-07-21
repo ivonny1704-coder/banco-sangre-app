@@ -1,5 +1,5 @@
-// Agregar al inicio del archivo
-import '../screens/inventario/inventario_screen.dart';
-
-// Dentro de la lista de rutas, agregar:
-'/inventario': (context) => const InventarioScreen(),
+class AppRoutes {
+  static const String login = '/login';
+  static const String registro = '/registro';
+  static const String home = '/home';
+}
